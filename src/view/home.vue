@@ -13,7 +13,9 @@
         <button class="btns">注册</button>
       </div>
       <div class="btns_box">
-        <span class="btns_now">游客试用</span>
+        <router-link to="/gexing">
+          <span class="btns_now">游客试用</span>
+        </router-link>
       </div>
     </div>
     <div class="body_bot">
